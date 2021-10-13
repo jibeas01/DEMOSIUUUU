@@ -10,11 +10,11 @@
 
 body {
 	margin: 0;
-	--color-text: #1c1b1b;
-	--color-bg: #efe6e1;
-	--color-link: #b07656;
-	--color-link-hover: #000;
-	--color-deco: #e4dbd6;
+	--color-text: #737373;
+	--color-bg: #F2F2F2;
+	--color-link: #737373;
+	--color-link-hover: #D9D9D9;
+	--color-deco: #A6A6A6;
 	color: var(--color-text);
 	background-color: var(--color-bg);
 	font-family: paralucent, sans-serif;
@@ -152,52 +152,54 @@ a:focus {
 
 .item:first-child .item__img-wrap {
 	--aspect-ratio: 8/10;
-	--image: url(https://tympanus.net/Tutorials/SmoothScrollAnimations/img/1.jpg);
+	--image: url(https://serving.photos.photobox.com/119248341698396d43375e6d4c3ab9e1681198b26908a97a8344c8ca8632ce7056ae702a.jpg);
 }
 
 .item:nth-child(2) .item__img-wrap {
-	width: 1000px;
+	width: 750px;
 	--aspect-ratio: 120/76;
-	--image: url(https://tympanus.net/Tutorials/SmoothScrollAnimations/img/2.jpg);
+	--image: url(https://serving.photos.photobox.com/85573534ca0f402f68d56455228af05fbf49ffbe84733b78ab221328aecba68555274785.jpg);
 }
 
 .item:nth-child(3) .item__img-wrap {
-	--aspect-ratio: 60/75;
-	--image: url(https://tympanus.net/Tutorials/SmoothScrollAnimations/img/3.jpg);
+	width: 750px;
+	--aspect-ratio: 120/76;
+	--image: url(https://serving.photos.photobox.com/237162126a326e9c028aedc8757eefbf8c522d09accd2ee9ff976f40c5ea757249552a5d.jpg);
 }
 
 .item:nth-child(4) .item__img-wrap {
 	width: 800px;
 	--aspect-ratio: 900/505;
-	--image: url(https://tympanus.net/Tutorials/SmoothScrollAnimations/img/4.jpg);
+	--image: url(https://serving.photos.photobox.com/03430683b2f4b48f8a1a7f597c0706a4a69e3d50e490b64157998d9e7c54e768b451738d.jpg);
 }
 
 .item:nth-child(5) .item__img-wrap {
-	--aspect-ratio: 6/8;
-	--image: url(https://tympanus.net/Tutorials/SmoothScrollAnimations/img/5.jpg);
+	--aspect-ratio: 8/10;
+	--image: url(https://serving.photos.photobox.com/70128973f839a2e112416a1c96350aefaf7d443d3f98c69eb3ce23d54732e4aecae4f1b8.jpg);
 }
 
 .item:nth-child(6) .item__img-wrap {
-	width: calc(100vw - 2rem);
+	width: calc(50vw - 2rem);
 	--aspect-ratio: 1500/844;
-	--image: url(https://tympanus.net/Tutorials/SmoothScrollAnimations/img/6.jpg);
+	--image: url(https://serving.photos.photobox.com/42621226fa477c9e7a8fe95e06e1b769d2508237dd0d830f5786f2e02a5d4509ffc8e276.jpg);
 }
 
 .item:nth-child(7) .item__img-wrap {
-	width: 900px;
+	width: 750px;
 	--aspect-ratio: 1000/749;
-	--image: url(https://tympanus.net/Tutorials/SmoothScrollAnimations/img/7.jpg);
+	--image: url(https://serving.photos.photobox.com/7015134210ea3a6f13e85524eeb3e47485f078cf367bf56ab914d85ecf1f4415c2c7e618.jpg);
 }
 
 .item:nth-child(8) .item__img-wrap {
-	width: 900px;
-	--aspect-ratio: 1000/562;
-	--image: url(https://tympanus.net/Tutorials/SmoothScrollAnimations/img/8.jpg);
+	width: 1400px;
+	--aspect-ratio: 120/76;
+	--image: url(https://serving.photos.photobox.com/6217038234e3658515a86bfb57899438e05bb522baf85c8c0cdc8a936a3308bfae87c90f.jpg);
 }
 
 .item:nth-child(9) .item__img-wrap {
-	--aspect-ratio: 60/75;
-	--image: url(https://tympanus.net/Tutorials/SmoothScrollAnimations/img/9.jpg);
+	width: 1400px;
+	--aspect-ratio: 120/76;
+	--image: url(https://serving.photos.photobox.com/798369701755486cbb6d8e692cb6d7bbe420a67570356f4cf1fdf603f71e9ecd389344fc.jpg);
 }
 
 .item__img {
